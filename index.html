@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio- Pallavi Goel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ebecdb17d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="="container">
+            <nav>
+                <img src="images/logo2.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>.NET Full Stack Developer</p>
+                <h1>Hi, I'm <span>Pallavi</span> Goel from Sweden</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------About----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a .NET Full Stack developer with 12 years of experience in
+                        IT industry which includes Training delivery and Software Design
+                        & Development. I also have a wide experience of working & promoting Agile ways of working 
+                        with an ability to produce results within a team environment as well as
+                        independently if required. Extensive experience in Oracle PL/SQL in addition to development 
+                        ,support and maintainence of .NET applications.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <!--Skills-->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>ASP.NET, C#.NET, LINQ, HTML, JavaScript, React</li>
+                                <li><span>Database Development</span><br>Oracle PL/SQL, SQL Server, Performance Tuning</li>
+                                <li><span>Configuration Management</span><br>GitHub, VSS, SVN</li>
+                            </ul>
+                        </div>
+                         <!--Experience-->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Sep 2016 – Apr 2018</span><br>Software Technical Lead at NIIT Technologies Ltd, Client - SEI Investments</li>
+                                <li><span>Feb 2011 – Aug 2016</span><br>Software Developer at NIIT Technologies Ltd, Client - ING Trade Review</li>
+                                <li><span>Jul 2006 – Jan 2011</span><br>Software Developer at NIIT Technologies Ltd, Client - ING Smartworks</li>
+                            </ul>
+                        </div>
+                         <!--Education-->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Currently doing</span><br>Software Development Course from Lexicon, Malmo, Sweden</li>
+                                <li><span>2023</span><br>SFI from Jensen vuxenutbildning skola, Helsingborg, Sweden</li>
+                                <li><span>2010</span><br>MBA(IT) from Amity University, Noida, India</li>
+                                <li><span>2006</span><br>BTech (CS) from Uttar Pradesh Technical University, Ghaziabad, India</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Asset Tracking System</h3>
+                        <p>This is a console application built in C#.NET. The main purpose of the application
+                        is to keep track of the company assets like Computers, Laptops, Phones and so on that belong to three 
+                        different countries. The cost and purchase date  of the assets should be handled as per the requirements.
+                        </p>
+                        <a href="https://github.com/goelpal/wk46_AssetTracking">More..</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Munamii Cakery Website</h3>
+                        <p>This website has been created in HTML and CSS for a client 'Munamii Cakery'. The organisation deals with
+                            bakery products like cupcakes and wedding cakes. This is a platform designed to attract the customers to come and visit the 
+                            shop and satify their tastebuds with delicious products.
+                        </p>
+                        <a href="https://goelpal.github.io/wk48-Cakery-Project/">More..</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg">
+                    <div class="layer">
+                        <h3>Personal Protfolio</h3>
+                        <p>This website has been created in HTML and CSS for showcasing my resume in a best possible way so it looks 
+                            more attractive and understandable. The information is concise and presented in a way so that the target 
+                            viewer feels somewhat connected and interested in meeting the person.
+                        </p>
+                        <a href="#">More..</a>
+                    </div>
+                </div>
+            </div>
+            <!------------------Contact------------->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left"> 
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-envelope"></i> pallavisingha@gmail.com</p>
+                            <p><i class="fa-solid fa-phone-volume"></i> +46-764418442</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/pallavi.goel.963"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/singhalp85"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/pallavi-goel-33074b5/"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="images/MyCV.pdf" class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                        </div> 
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    </script>
+</body>
+</html>
