@@ -33,6 +33,7 @@ Include areas which need improvement / could be improved. Also add TODOs for fut
 * Development of application on React.
 * Need to prepare some of the features like Messaging on contact page.
 * More projects can be added on My work.
+* Have really hard time working with CSS.
 
  
 
