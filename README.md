@@ -11,7 +11,8 @@ This is a website designed in HTML, CSS and Javascript to showcase the Resume of
 * The projects he/she has been a part of, what is the project about and any code snippet or demo included.
 * How can a person contact the individual i.e. email, social media and mobile phone.
 * Feature to download the latest CV of the individual.
-* An inbuilt feature to send a message through the website itself. 
+* An inbuilt feature to send a message through the website itself.
+* The website is fully responsive on both computer and mobile.
 
 ## Technology and Software Used
 
